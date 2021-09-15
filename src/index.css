@@ -1,13 +1,43 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Consolas';
+  background: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  font-size: 2vw;
+  letter-spacing: 2vw;
+  display: flex;
+  color: grey;
+  padding-top: 0px;
+}
+
+.it {
+  color: white;
+}
+
+.is {
+  color: white;
+}
+
+.signature {
+  font-size: 1vw;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  color: white;
+}
+
+.margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
