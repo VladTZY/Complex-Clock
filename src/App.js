@@ -20,6 +20,7 @@ function App() {
 
     if (minuteInt >= 0 && minuteInt <= 4) {
       setPastOrTo('');
+      setHour(hour);
     } else {
       if (minuteInt >= 35) {
         setPastOrTo('to');
@@ -70,9 +71,9 @@ function App() {
           <h1 className="it margin">IT</h1>
           <h1 className="margin">L</h1>
           <h1 className="is margin">IS</h1>
-          <h1 className="margin">VT</h1>
-          <h1 className="margin" style={pmOrAm === 'am' ? blackStyle : {}}>AM</h1>
-          <h1 className="margin" style={pmOrAm === 'pm' ? blackStyle : {}}>PM</h1>
+          <h1 className="margin">VTLXFT</h1>
+          {/* <h1 className="margin" style={pmOrAm === 'am' ? blackStyle : {}}>AM</h1> 
+              <h1 className="margin" style={pmOrAm === 'pm' ? blackStyle : {}}>PM</h1> */}
         </div>
 
         <div className="row">
